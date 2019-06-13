@@ -1,0 +1,32 @@
+{
+  "ids": {
+    "User": 3,
+    "PlaylistFolder": 3,
+    "Playlist": 2,
+    "Music": 6,
+    "MusicPlaylist": 1,
+    "Album": 2
+  },
+  "models": {
+    "User": {
+      "1": "{\"id\":1,\"login\":\"Ricardo\",\"password\":\"123\",\"plan\":\"Normal\",\"playlistFolderId\":1}",
+      "2": "{\"id\":2,\"login\":\"Bibinson\",\"password\":\"1234\",\"plan\":\"FREE\",\"playlistFolderId\":2}"
+    },
+    "PlaylistFolder": {
+      "1": "{\"id\":1,\"userId\":1}",
+      "2": "{\"id\":2,\"userId\":2}"
+    },
+    "Playlist": {
+      "1": "{\"id\":1,\"name\":\"Daily Mix 1\",\"mainStyle\":\"Pop\",\"secStyle\":\"Funk\",\"playlistFolderId\":1,\"playlistFoldereId\":0}"
+    },
+    "Music": {
+      "3": "{\"id\":3,\"style\":\"Pop\",\"name\":\"Poker Face\",\"time\":4,\"albumId\":1}",
+      "4": "{\"id\":4,\"style\":\"Pop\",\"name\":\"Paparazzi\",\"time\":3,\"albumId\":1}",
+      "5": "{\"id\":5,\"style\":\"Pop\",\"name\":\"Love Game\",\"time\":3,\"albumId\":1}"
+    },
+    "MusicPlaylist": {},
+    "Album": {
+      "1": "{\"id\":1,\"name\":\"The Fame\",\"bandName\":\"Lady Gaga\",\"style\":\"Pop\"}"
+    }
+  }
+}

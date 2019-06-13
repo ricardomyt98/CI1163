@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_v-7E8ImGEemopIBfncy06w" name="model">
+  <eAnnotations xmi:id="_v-7E8YmGEemopIBfncy06w" source="genmymodel">
+    <details xmi:id="_v-7E8omGEemopIBfncy06w" key="uuid" value="_EtwnYIPoEemodb87_Zy-iQ"/>
+    <details xmi:id="_v-7E84mGEemopIBfncy06w" key="author" value="celissaintb"/>
+  </eAnnotations>
+  <packageImport xmi:id="_v-7E9ImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7E9YmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7E9omGEemopIBfncy06w" key="uuid" value="_EtwnYYPoEemodb87_Zy-iQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7E94mGEemopIBfncy06w" name="User">
+    <eAnnotations xmi:id="_v-7E-ImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7E-YmGEemopIBfncy06w" key="uuid" value="_GECnEGYWEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7E-omGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7E-4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7E_ImGEemopIBfncy06w" key="uuid" value="_cKN04WoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7E_YmGEemopIBfncy06w" name="login">
+      <eAnnotations xmi:id="_v-7E_omGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7E_4mGEemopIBfncy06w" key="uuid" value="_OsGCAGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FAImGEemopIBfncy06w" name="password" visibility="private">
+      <eAnnotations xmi:id="_v-7FAYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FAomGEemopIBfncy06w" key="uuid" value="_T7VHAGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FA4mGEemopIBfncy06w" name="plan" type="_v-7Fs4mGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FBImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FBYmGEemopIBfncy06w" key="uuid" value="_XAN0UGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Enumeration" xmi:id="_v-7FBomGEemopIBfncy06w" name="Enumeration">
+    <eAnnotations xmi:id="_v-7FB4mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FCImGEemopIBfncy06w" key="uuid" value="_g_DcAGYWEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7FCYmGEemopIBfncy06w" name="PlaylistFolder">
+    <eAnnotations xmi:id="_v-7FComGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FC4mGEemopIBfncy06w" key="uuid" value="_1QA-UGYXEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7FDImGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7FDYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FDomGEemopIBfncy06w" key="uuid" value="_epn2kGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_v-7FD4mGEemopIBfncy06w" name="share_playlist">
+      <eAnnotations xmi:id="_v-7FEImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FEYmGEemopIBfncy06w" key="uuid" value="_kMBfkGYcEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_v-7FEomGEemopIBfncy06w" name="returnParameter" type="_v-7FG4mGEemopIBfncy06w" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_v-7FE4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FFImGEemopIBfncy06w" key="uuid" value="_qOGWwGYcEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FFYmGEemopIBfncy06w" name="U" type="_v-7E94mGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FFomGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FF4mGEemopIBfncy06w" key="uuid" value="_rCnj8GYcEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FGImGEemopIBfncy06w" name="L" type="_v-7FG4mGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FGYmGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FGomGEemopIBfncy06w" key="uuid" value="_3UygMGYcEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7FG4mGEemopIBfncy06w" name="Playlist">
+    <eAnnotations xmi:id="_v-7FHImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FHYmGEemopIBfncy06w" key="uuid" value="_4LFBQGYXEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7FHomGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7FH4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FIImGEemopIBfncy06w" key="uuid" value="_gbgD4GoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FIYmGEemopIBfncy06w" name="name">
+      <eAnnotations xmi:id="_v-7FIomGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FI4mGEemopIBfncy06w" key="uuid" value="_8A94QGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FJImGEemopIBfncy06w" name="mainStyle">
+      <eAnnotations xmi:id="_v-7FJYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FJomGEemopIBfncy06w" key="uuid" value="_9yOagGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FJ4mGEemopIBfncy06w" name="SecStyle">
+      <eAnnotations xmi:id="_v-7FKImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FKYmGEemopIBfncy06w" key="uuid" value="_A1hMYGYZEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_v-7FKomGEemopIBfncy06w" name="add_music">
+      <eAnnotations xmi:id="_v-7FK4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FLImGEemopIBfncy06w" key="uuid" value="_TxULMGYdEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_v-7FLYmGEemopIBfncy06w" name="returnParameter" type="_v-7F44mGEemopIBfncy06w" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_v-7FLomGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FL4mGEemopIBfncy06w" key="uuid" value="_WPrrEGYdEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FMImGEemopIBfncy06w" name="M" type="_v-7FgomGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FMYmGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FMomGEemopIBfncy06w" key="uuid" value="_DQkgQGYeEDeiA7fhLMb_bA"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_v-7FM4mGEemopIBfncy06w" name="remove_music">
+      <eAnnotations xmi:id="_v-7FNImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FNYmGEemopIBfncy06w" key="uuid" value="_Xcaj8GYdEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_v-7FNomGEemopIBfncy06w" name="returnParameter" type="_v-7F44mGEemopIBfncy06w" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_v-7FN4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FOImGEemopIBfncy06w" key="uuid" value="_Yt72MGYdEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FOYmGEemopIBfncy06w" name="M" type="_v-7FgomGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FOomGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FO4mGEemopIBfncy06w" key="uuid" value="_FcRi0GYeEDeiA7fhLMb_bA"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7FPImGEemopIBfncy06w" name="Album">
+    <eAnnotations xmi:id="_v-7FPYmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FPomGEemopIBfncy06w" key="uuid" value="_-U-XsWYXEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7FP4mGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7FQImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FQYmGEemopIBfncy06w" key="uuid" value="_lcn0YGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FQomGEemopIBfncy06w" name="name">
+      <eAnnotations xmi:id="_v-7FQ4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FRImGEemopIBfncy06w" key="uuid" value="_nu34EGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FRYmGEemopIBfncy06w" name="bandName">
+      <eAnnotations xmi:id="_v-7FRomGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FR4mGEemopIBfncy06w" key="uuid" value="_pUQhgGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FSImGEemopIBfncy06w" name="style">
+      <eAnnotations xmi:id="_v-7FSYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FSomGEemopIBfncy06w" key="uuid" value="_sfMzgGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_v-7FS4mGEemopIBfncy06w" name="add_music">
+      <eAnnotations xmi:id="_v-7FTImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FTYmGEemopIBfncy06w" key="uuid" value="_idpcwWYdEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_v-7FTomGEemopIBfncy06w" name="returnParameter" type="_v-7F44mGEemopIBfncy06w" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_v-7FT4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FUImGEemopIBfncy06w" key="uuid" value="_jv5u0GYdEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FUYmGEemopIBfncy06w" name="M" type="_v-7FgomGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FUomGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FU4mGEemopIBfncy06w" key="uuid" value="_JqYiAGYeEDeiA7fhLMb_bA"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_v-7FVImGEemopIBfncy06w" name="remove_music">
+      <eAnnotations xmi:id="_v-7FVYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FVomGEemopIBfncy06w" key="uuid" value="_ka07IWYdEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_v-7FV4mGEemopIBfncy06w" name="returnParameter" type="_v-7F44mGEemopIBfncy06w" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_v-7FWImGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FWYmGEemopIBfncy06w" key="uuid" value="_mOt6oGYdEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_v-7FWomGEemopIBfncy06w" name="M" type="_v-7FgomGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FW4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FXImGEemopIBfncy06w" key="uuid" value="_M_GbEGYeEDeiA7fhLMb_bA"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_v-7FXYmGEemopIBfncy06w" name="DataType">
+    <eAnnotations xmi:id="_v-7FXomGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FX4mGEemopIBfncy06w" key="uuid" value="_UI_oMGYZEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_v-7FYImGEemopIBfncy06w" name="Diretorio de Musicas_Playlist" memberEnd="_v-7FY4mGEemopIBfncy06w _v-7FaomGEemopIBfncy06w" navigableOwnedEnd="_v-7FY4mGEemopIBfncy06w _v-7FaomGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FYYmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FYomGEemopIBfncy06w" key="uuid" value="_qP2xomYZEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_v-7FY4mGEemopIBfncy06w" name="has one" type="_v-7FG4mGEemopIBfncy06w" aggregation="composite" association="_v-7FYImGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FZImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FZYmGEemopIBfncy06w" key="uuid" value="_qP2KkmYZEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7FZomGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FZ4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FaImGEemopIBfncy06w" key="uuid" value="_qP2xoGYZEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FaYmGEemopIBfncy06w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v-7FaomGEemopIBfncy06w" name="has many" type="_v-7FCYmGEemopIBfncy06w" association="_v-7FYImGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7Fa4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FbImGEemopIBfncy06w" key="uuid" value="_qP1jgGYZEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7FbYmGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7FbomGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7Fb4mGEemopIBfncy06w" key="uuid" value="_qP2KkGYZEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FcImGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_v-7FcYmGEemopIBfncy06w" name="Playlist_Musica" memberEnd="_v-7FdImGEemopIBfncy06w _v-7Fe4mGEemopIBfncy06w" navigableOwnedEnd="_v-7FdImGEemopIBfncy06w _v-7Fe4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FcomGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7Fc4mGEemopIBfncy06w" key="uuid" value="_KubVwmYaEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_v-7FdImGEemopIBfncy06w" name="has many" type="_v-7F5omGEemopIBfncy06w" aggregation="shared" association="_v-7FcYmGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FdYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FdomGEemopIBfncy06w" key="uuid" value="_Kuaus2YaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7Fd4mGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7FeImGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FeYmGEemopIBfncy06w" key="uuid" value="_KubVwGYaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FeomGEemopIBfncy06w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v-7Fe4mGEemopIBfncy06w" name="has one" type="_v-7FG4mGEemopIBfncy06w" association="_v-7FcYmGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FfImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FfYmGEemopIBfncy06w" key="uuid" value="_KuausGYaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7FfomGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7Ff4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FgImGEemopIBfncy06w" key="uuid" value="_KuausWYaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FgYmGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7FgomGEemopIBfncy06w" name="Music">
+    <eAnnotations xmi:id="_v-7Fg4mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FhImGEemopIBfncy06w" key="uuid" value="_PC6UoGYYEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7FhYmGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7FhomGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7Fh4mGEemopIBfncy06w" key="uuid" value="_i1Kp8GoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FiImGEemopIBfncy06w" name="style">
+      <eAnnotations xmi:id="_v-7FiYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FiomGEemopIBfncy06w" key="uuid" value="_RXF9wGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7Fi4mGEemopIBfncy06w" name="name">
+      <eAnnotations xmi:id="_v-7FjImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FjYmGEemopIBfncy06w" key="uuid" value="_YfkcUGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7FjomGEemopIBfncy06w" name="time">
+      <eAnnotations xmi:id="_v-7Fj4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FkImGEemopIBfncy06w" key="uuid" value="_cqfkoGYYEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_v-7FkYmGEemopIBfncy06w" name="Album_Musica" memberEnd="_v-7FlImGEemopIBfncy06w _v-7Fm4mGEemopIBfncy06w" navigableOwnedEnd="_v-7FlImGEemopIBfncy06w _v-7Fm4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FkomGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7Fk4mGEemopIBfncy06w" key="uuid" value="_eslGQGYaEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_v-7FlImGEemopIBfncy06w" name="has one" type="_v-7FgomGEemopIBfncy06w" aggregation="composite" association="_v-7FkYmGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FlYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FlomGEemopIBfncy06w" key="uuid" value="_esj4IGYaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7Fl4mGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7FmImGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FmYmGEemopIBfncy06w" key="uuid" value="_eskfMGYaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FmomGEemopIBfncy06w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v-7Fm4mGEemopIBfncy06w" name="has many" type="_v-7FPImGEemopIBfncy06w" association="_v-7FkYmGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FnImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FnYmGEemopIBfncy06w" key="uuid" value="_esiqAGYaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7FnomGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7Fn4mGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FoImGEemopIBfncy06w" key="uuid" value="_esjREGYaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FoYmGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_v-7FoomGEemopIBfncy06w" name="usuario_Diretorio de Musicas" memberEnd="_v-7FpYmGEemopIBfncy06w _v-7FrImGEemopIBfncy06w" navigableOwnedEnd="_v-7FpYmGEemopIBfncy06w _v-7FrImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7Fo4mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FpImGEemopIBfncy06w" key="uuid" value="_rpgPsGYaEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_v-7FpYmGEemopIBfncy06w" name="has one" type="_v-7FCYmGEemopIBfncy06w" aggregation="composite" association="_v-7FoomGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FpomGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7Fp4mGEemopIBfncy06w" key="uuid" value="_rpfoomYaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7FqImGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7FqYmGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FqomGEemopIBfncy06w" key="uuid" value="_rpfoo2YaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7Fq4mGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v-7FrImGEemopIBfncy06w" name="has one" type="_v-7E94mGEemopIBfncy06w" association="_v-7FoomGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FrYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FromGEemopIBfncy06w" key="uuid" value="_rpeagGYaEDehfv_IzzTNwg"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7Fr4mGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7FsImGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7FsYmGEemopIBfncy06w" key="uuid" value="_rpfooGYaEDehfv_IzzTNwg"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7FsomGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Enumeration" xmi:id="_v-7Fs4mGEemopIBfncy06w" name="PlanType">
+    <eAnnotations xmi:id="_v-7FtImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FtYmGEemopIBfncy06w" key="uuid" value="_i-0UUGYWEDehfv_IzzTNwg"/>
+    </eAnnotations>
+    <ownedLiteral xmi:id="_v-7FtomGEemopIBfncy06w" name="PREMIUM" classifier="_v-7Fs4mGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7Ft4mGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FuImGEemopIBfncy06w" key="uuid" value="_p-p0QGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_v-7FuYmGEemopIBfncy06w" name="NORMAL" classifier="_v-7Fs4mGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FuomGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7Fu4mGEemopIBfncy06w" key="uuid" value="_y4oFoGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_v-7FvImGEemopIBfncy06w" name="FREE" classifier="_v-7Fs4mGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7FvYmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7FvomGEemopIBfncy06w" key="uuid" value="_0-xSwGYWEDehfv_IzzTNwg"/>
+      </eAnnotations>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7Fv4mGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7E94mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FwImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FwYmGEemopIBfncy06w" key="uuid" value="_FLD-YGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7FwomGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FAImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7Fw4mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FxImGEemopIBfncy06w" key="uuid" value="_FYMbcGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7FxYmGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FA4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FxomGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7Fx4mGEemopIBfncy06w" key="uuid" value="_FywQgGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7FyImGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FA4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FyYmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FyomGEemopIBfncy06w" key="uuid" value="_GChx4GYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7Fy4mGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FA4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7FzImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7FzYmGEemopIBfncy06w" key="uuid" value="_GbGC4GYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7FzomGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7Fs4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7Fz4mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F0ImGEemopIBfncy06w" key="uuid" value="_GkLGYGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F0YmGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FvImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F0omGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F04mGEemopIBfncy06w" key="uuid" value="_GzAMkGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F1ImGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7E94mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F1YmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F1omGEemopIBfncy06w" key="uuid" value="_HLwq0GYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F14mGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FA4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F2ImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F2YmGEemopIBfncy06w" key="uuid" value="_Hg-s4GYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F2omGEemopIBfncy06w" client="_v-7E8ImGEemopIBfncy06w" supplier="_v-7FvImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F24mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F3ImGEemopIBfncy06w" key="uuid" value="_IAViYGYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F3YmGEemopIBfncy06w" client="_v-7E94mGEemopIBfncy06w" supplier="_v-7E8ImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F3omGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F34mGEemopIBfncy06w" key="uuid" value="_f0VjEWYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_v-7F4ImGEemopIBfncy06w" client="_v-7E94mGEemopIBfncy06w" supplier="_v-7Fs4mGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F4YmGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F4omGEemopIBfncy06w" key="uuid" value="_nXi10GYbEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:DataType" xmi:id="_v-7F44mGEemopIBfncy06w" name="void">
+    <eAnnotations xmi:id="_v-7F5ImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F5YmGEemopIBfncy06w" key="uuid" value="_4_t7gWYdEDehfv_IzzTNwg"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7F5omGEemopIBfncy06w" name="MusicPlaylist">
+    <eAnnotations xmi:id="_v-7F54mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F6ImGEemopIBfncy06w" key="uuid" value="_-6_hoGoDEDeD9b2LQM0XMQ"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_v-7F6YmGEemopIBfncy06w" name="id">
+      <eAnnotations xmi:id="_v-7F6omGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7F64mGEemopIBfncy06w" key="uuid" value="_WsH0gGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7F7ImGEemopIBfncy06w" name="musicId">
+      <eAnnotations xmi:id="_v-7F7YmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7F7omGEemopIBfncy06w" key="uuid" value="_N-eH4GoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v-7F74mGEemopIBfncy06w" name="playlistId">
+      <eAnnotations xmi:id="_v-7F8ImGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7F8YmGEemopIBfncy06w" key="uuid" value="_RrEVcGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_v-7F8omGEemopIBfncy06w" name="PlaylistMusica_Musica" memberEnd="_v-7F9YmGEemopIBfncy06w _v-7F_ImGEemopIBfncy06w" navigableOwnedEnd="_v-7F9YmGEemopIBfncy06w _v-7F_ImGEemopIBfncy06w">
+    <eAnnotations xmi:id="_v-7F84mGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7F9ImGEemopIBfncy06w" key="uuid" value="_yyFZoGoEEDeD9b2LQM0XMQ"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_v-7F9YmGEemopIBfncy06w" name="has one" type="_v-7FgomGEemopIBfncy06w" aggregation="shared" association="_v-7F8omGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7F9omGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7F94mGEemopIBfncy06w" key="uuid" value="_yyELgGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7F-ImGEemopIBfncy06w" value="1">
+        <eAnnotations xmi:id="_v-7F-YmGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7F-omGEemopIBfncy06w" key="uuid" value="_yyELgWoEEDeD9b2LQM0XMQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7F-4mGEemopIBfncy06w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_v-7F_ImGEemopIBfncy06w" name="has many" type="_v-7F5omGEemopIBfncy06w" association="_v-7F8omGEemopIBfncy06w">
+      <eAnnotations xmi:id="_v-7F_YmGEemopIBfncy06w" source="genmymodel">
+        <details xmi:id="_v-7F_omGEemopIBfncy06w" key="uuid" value="_yyBIMGoEEDeD9b2LQM0XMQ"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_v-7F_4mGEemopIBfncy06w">
+        <eAnnotations xmi:id="_v-7GAImGEemopIBfncy06w" source="genmymodel">
+          <details xmi:id="_v-7GAYmGEemopIBfncy06w" key="uuid" value="_yyC9YGoEEDeD9b2LQM0XMQ"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-7GAomGEemopIBfncy06w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_v-7GA4mGEemopIBfncy06w" name="void2">
+    <eAnnotations xmi:id="_v-7GBImGEemopIBfncy06w" source="genmymodel">
+      <details xmi:id="_v-7GBYmGEemopIBfncy06w" key="uuid" value="_A70DkGupEDe6E68pwEKfqw"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>
